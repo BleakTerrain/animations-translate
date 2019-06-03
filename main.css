@@ -1,0 +1,11 @@
+img {
+    height:100px;
+    animation : spinny 2s infinite linear;
+}
+
+@keyframes spinny 
+{
+    from {transform: translate(0px, 0px) rotate(0deg);}
+    to {transform: translate(100px, 100px) rotate(360deg);}
+}
+

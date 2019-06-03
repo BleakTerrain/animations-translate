@@ -1,0 +1,6 @@
+img {height: 100px;
+    transition: tranform 1s ease-in-out;
+}
+
+img:hover
+{transform: translateX(100%);}
